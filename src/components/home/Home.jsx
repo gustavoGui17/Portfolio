@@ -123,7 +123,7 @@ function Home() {
         >
           ▶ GitHub
         </PixelButton>
-        <PixelButton href="/curriculo.pdf" download>
+        <PixelButton href={`${import.meta.env.BASE_URL}curriculo.pdf`} download>
           ▼ Curriculo
         </PixelButton>
       </HeroActions>
