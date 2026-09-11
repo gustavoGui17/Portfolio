@@ -4,8 +4,9 @@ import styled from 'styled-components'
 const links = [
   { label: 'Home', href: '#home' },
   { label: 'Tech Stack', href: '#tech-stack' },
-  { label: 'Experience', href: '#experience' },
+  { label: 'esperiencia', href: '#experience' },
   { label: 'Projetos', href: '#projetos' },
+  { label: 'Futuros', href: '#projetos-futuros' },
   { label: 'Diplomas', href: '#diplomas' },
   { label: 'Contato', href: '#contato' },
 ]

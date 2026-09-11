@@ -42,7 +42,7 @@ function Experience() {
   return (
     <Section id="experience">
       <h1>
-        <MarioCoin />▸ Experiências
+        <MarioCoin />▸ Experiencias
       </h1>
       <p>Registros de missões concluídas</p>
       <CardsGrid>

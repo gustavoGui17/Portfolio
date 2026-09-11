@@ -94,6 +94,7 @@ export const PixelCard = styled.div`
   padding: 24px;
   background: var(--pixel-panel);
   border: 3px solid var(--pixel-black);
+  border-radius: 18px;
   box-shadow: 4px 4px 0 var(--pixel-black);
   transition: transform 0.15s steps(2), box-shadow 0.15s steps(2);
 

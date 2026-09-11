@@ -4,6 +4,7 @@ import Home from './components/home/Home.jsx'
 import TechStack from './components/techStack/TechStack.jsx'
 import Experience from './components/experiencias/Experience.jsx'
 import Projetos from './components/projetos/Projetos.jsx'
+import ProjetosFuturos from './components/projetosFuturos/ProjetosFuturos.jsx'
 import Diplomas from './components/diplomas/Diplomas.jsx'
 import Contato from './components/contato/Contato.jsx'
 
@@ -16,6 +17,7 @@ function App() {
         <TechStack />
         <Experience />
         <Projetos />
+        <ProjetosFuturos />
         <Diplomas />
         <Contato />
       </main>
