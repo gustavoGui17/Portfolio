@@ -72,7 +72,7 @@ function Projetos() {
   return (
     <Section id="projetos">
       <h2><MarioCoin />▸ Projetos</h2>
-      <p>Missões concluídas no repositório central</p>
+      <p>Missões concluidas</p>
       <CardsGrid>
         {projetos.map((projeto, i) => (
           <RevealCard key={projeto.title} delay={i * 90}>

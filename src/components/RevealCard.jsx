@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { useScrollReveal } from '../hooks/useScrollReveal.js'
 
@@ -46,7 +45,6 @@ export function RevealSection({ children }) {
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
-  grid-auto-rows: ${({ $rowHeight }) => $rowHeight ? `${$rowHeight}px` : 'auto'};
   gap: 28px;
 
   @media (max-width: 720px) {
@@ -55,39 +53,5 @@ const Grid = styled.div`
 `
 
 export function CardsGrid({ children }) {
-  const ref = useRef(null)
-  const [rowHeight, setRowHeight] = useState(0)
-
-  useEffect(() => {
-    const grid = ref.current
-    if (!grid) return
-
-    const measure = () => {
-      const cards = grid.children
-      if (!cards.length) return
-      let max = 0
-      for (const card of cards) {
-        if (card.scrollHeight > max) max = card.scrollHeight
-      }
-      setRowHeight(max)
-    }
-
-    measure()
-
-    const ro = new ResizeObserver(measure)
-    ro.observe(grid)
-    for (const child of grid.children) ro.observe(child)
-
-    if (document.fonts) {
-      document.fonts.ready.then(measure).catch(() => {})
-    }
-
-    return () => ro.disconnect()
-  }, [children])
-
-  return (
-    <Grid ref={ref} $rowHeight={rowHeight}>
-      {children}
-    </Grid>
-  )
+  return <Grid>{children}</Grid>
 }
