@@ -34,6 +34,7 @@ const CertCode = styled.span`
   font-family: var(--font-pixel);
   font-size: 8px;
   color: var(--pixel-highlight);
+  overflow-wrap: anywhere;
 `
 
 const DiplomaMeta = styled.p`
@@ -42,6 +43,7 @@ const DiplomaMeta = styled.p`
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 14px;
+  overflow-wrap: anywhere;
 `
 
 const Tags = styled.div`

@@ -23,7 +23,7 @@ const projetos = [
     tags: ['Node.js', 'Express.js', 'MongoDB'],
   },
   {
-    title: 'WebAdivocacia',
+    title: 'WebAdvocacia',
     desc: 'Desenvolvimento de uma landing page institucional para escritório de advocacia, utilizando React, com foco em apresentação dos serviços, informações institucionais e facilidade de contato com potenciais clientes.',
     url: 'https://github.com/gustavoGui17/WebAdivocacia',
     tags: ['React', 'UI'],

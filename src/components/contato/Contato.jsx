@@ -95,6 +95,7 @@ const ContactIcon = styled.span`
 `
 
 const ContactValue = styled.span`
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -153,7 +154,7 @@ function Contato() {
       </ContactsGrid>
       <Footer>
         <FooterLine>1UP ▸ FIM DE JOGO</FooterLine>
-        <FooterLine>© 2026 GUSTAVO GUILHERME SILVE DE SOUZA</FooterLine>
+        <FooterLine>© 2026 GUSTAVO GUILHERME SILVA DE SOUZA</FooterLine>
       </Footer>
       <EndLine>
         ▸ PRESSIONE START PARA COMEÇAR NOVAMENTE

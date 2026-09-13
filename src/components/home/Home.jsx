@@ -4,8 +4,8 @@ import pixelBg from '../../img/Pixel.gif'
 
 const Hero = styled(Section)`
   position: relative;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  margin-left: calc(-1 * clamp(20px, 5vw, 64px));
+  margin-right: calc(-1 * clamp(20px, 5vw, 64px));
   padding-top: 140px;
   padding-bottom: 130px;
   padding-left: clamp(20px, 5vw, 64px);

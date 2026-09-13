@@ -34,10 +34,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
+  width: 100%;
   background-color: var(--pixel-bg);
   background-image:
     linear-gradient(rgba(142, 224, 192, 0.05) 1px, transparent 1px),

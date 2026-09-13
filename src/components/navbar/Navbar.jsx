@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const links = [
   { label: 'Home', href: '#home' },
   { label: 'Tech Stack', href: '#tech-stack' },
-  { label: 'esperiencia', href: '#experience' },
+  { label: 'experiencia', href: '#experience' },
   { label: 'Projetos', href: '#projetos' },
   { label: 'Futuros', href: '#projetos-futuros' },
   { label: 'Diplomas', href: '#diplomas' },
@@ -20,8 +20,7 @@ const Header = styled.header`
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
   padding: 18px clamp(20px, 5vw, 64px);
   background: var(--pixel-bg);
   border-bottom: 3px solid var(--pixel-black);
@@ -37,6 +36,10 @@ const Brand = styled.a`
 
   &:hover {
     color: var(--pixel-yellow);
+  }
+
+  @media (max-width: 360px) {
+    font-size: 11px;
   }
 `
 

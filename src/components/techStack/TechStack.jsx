@@ -23,7 +23,7 @@ const outras = [
   { name: 'Git', lvl: 85 },
   { name: 'GitHub', lvl: 90 },
   { name: 'Postman', lvl: 80 },
-  { name: 'Davinci Resolve', lvl: 50 },
+  { name: 'DaVinci Resolve', lvl: 50 },
   { name: 'Adobe Premiere', lvl: 40 },
 ]
 

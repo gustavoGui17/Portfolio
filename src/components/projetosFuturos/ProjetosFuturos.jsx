@@ -10,7 +10,7 @@ import { RevealCard, CardsGrid } from '../RevealCard.jsx'
 
 const futuros = [
   {
-    title: 'Clone spotify',
+    title: 'Clone Spotify',
     desc: 'Clone do Spotify com funcionalidades de streaming de música, criação de playlists e recomendações personalizadas.',
     tags: ['React', 'Node.js', 'typescript'],
   },
